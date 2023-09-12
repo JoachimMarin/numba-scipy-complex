@@ -1,0 +1,1 @@
+Implements a collection of `scipy.special` functions with support for complex arguments during the Numba `nopython` mode.
