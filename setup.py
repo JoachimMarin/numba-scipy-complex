@@ -22,9 +22,9 @@ setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        "numpy~=1.22.4",
-        "scipy~=1.7.3",
-        "numba~=0.57.1"
+        "numpy>=1.22.4",
+        "scipy>=1.7.3",
+        "numba>=0.57.1"
     ],
     extras_require={
         "dev": ["pytest>=7.0", "twine>=4.0.2"],
